@@ -35,6 +35,7 @@ export default function AuthInputs() {
     <div id="auth-inputs">
       <ControlContainer >
         <Input
+          label="Email"
           type="email"
           $invalid={emailNotValid}
           // style={{
@@ -44,6 +45,7 @@ export default function AuthInputs() {
           onChange={(event) => handleInputChange('email', event.target.value)}
         />
         <Input
+          label="Email"
           type="password"
           $invalid={passwordNotValid}
           // className={passwordNotValid ? 'invalid' : undefined}
